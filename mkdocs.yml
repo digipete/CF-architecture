@@ -1,8 +1,8 @@
 site_name: CustomerFirst Architecture
 site_description: Technology and architecture guidance for CustomerFirst delivery teams.
-site_url: https://YOUR-GITHUB-ORG.github.io/customerfirst-architecture/
-repo_url: https://github.com/YOUR-GITHUB-ORG/customerfirst-architecture
-repo_name: customerfirst-architecture
+site_url: http://digipete.github.io/CF-architecture/
+repo_url: https://github.com/digipete/CF-architecture
+repo_name: CF-architecture
 
 theme:
   name: material
