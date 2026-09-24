@@ -1,0 +1,95 @@
+site_name: CustomerFirst Architecture
+site_description: Technology and architecture guidance for CustomerFirst delivery teams.
+site_url: https://YOUR-GITHUB-ORG.github.io/customerfirst-architecture/
+repo_url: https://github.com/YOUR-GITHUB-ORG/customerfirst-architecture
+repo_name: customerfirst-architecture
+
+theme:
+  name: material
+  language: en
+  custom_dir: null
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+  font: false
+
+nav:
+  - Home: index.md
+  - Principles:
+      - Overview: principles/index.md
+      - Start with the outcome: principles/start-with-the-outcome.md
+      - Make the smallest safe decision: principles/smallest-safe-decision.md
+      - Design for change: principles/design-for-change.md
+      - Use what exists — until it stops helping: principles/use-what-exists.md
+      - Preserve future choice: principles/preserve-future-choice.md
+      - Treat data as part of the service: principles/data-as-part-of-service.md
+      - Build trust into the design: principles/build-trust.md
+      - Prove rather than predict: principles/prove-rather-than-predict.md
+  - Domains:
+      - Overview: domains/index.md
+      - Service & Organisation: domains/service-organisation.md
+      - Information & Data: domains/information-data.md
+      - Applications & Integration: domains/applications-integration.md
+      - Technology & Platforms: domains/technology-platforms.md
+      - Security & Trust: domains/security-trust.md
+      - Operations & Delivery: domains/operations-delivery.md
+  - Evidence:
+      - Overview: evidence/index.md
+      - Identify uncertainty: evidence/identify-uncertainty.md
+      - Turn uncertainty into tests: evidence/turn-uncertainty-into-tests.md
+      - Record what we learn: evidence/record-what-we-learn.md
+  - Test & Learn Experiments:
+      - Overview: test-and-learn/index.md
+      - Guardrails: test-and-learn/guardrails.md
+      - Bounded risk and exposure: test-and-learn/bounded-risk.md
+      - Stop conditions: test-and-learn/stop-conditions.md
+  - Assurance:
+      - Overview: assurance/index.md
+      - Before an experiment: assurance/before.md
+      - After an experiment: assurance/after.md
+      - Proportional assurance: assurance/proportional.md
+  - Continuous Architecture: continuous-architecture/index.md
+  - Patterns & Tools:
+      - Overview: patterns/index.md
+      - Architecture Decision Record: patterns/adr.md
+      - Options appraisal: patterns/options-appraisal.md
+      - Architecture canvas: patterns/architecture-canvas.md
+      - Experiment architecture checklist: patterns/experiment-checklist.md
+      - NFR prompts: patterns/nfr-prompts.md
+      - Partner environment assessment: patterns/partner-environment.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - stylesheets/customerfirst.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js
+  - javascripts/mermaid-init.js
+
+plugins:
+  - search
+
+copyright: CustomerFirst — Technology & Architecture guidance
