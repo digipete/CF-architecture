@@ -1,4 +1,4 @@
-# CustomerFirst Architecture
+# CustomerFirst Architecturer
 
 A standalone Markdown-first reference site for **Architecture at CustomerFirst**, designed for GitHub Pages using MkDocs Material with a restrained GOV.UK-inspired presentation style.
 
