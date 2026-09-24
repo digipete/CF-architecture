@@ -7,7 +7,6 @@ repo_name: CF-architecture
 theme:
   name: material
   language: en
-  custom_dir: null
   features:
     - navigation.tabs
     - navigation.sections
